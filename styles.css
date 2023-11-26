@@ -53,7 +53,6 @@ header{
     display: flex;
     flex-direction: column;
     width: 100%;
-    
 }
 
 .dark{
@@ -71,6 +70,16 @@ header{
     margin: 10px 0;
     padding: 10px;
 }
-.form input, .form select{
-    border-radius: 10px;
+
+.indent{margin-left: 60px;}
+.long{width: 80%;}
+.form div{width: 100%;}
+.form input, .form select{border-radius: 10px;} 
+
+.form  i{
+    color: grey;
+    width: 18px;
+    font-size: 20px;
+    margin: 15px;
+    margin-right: 20px;
 }

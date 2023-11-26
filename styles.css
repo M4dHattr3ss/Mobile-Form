@@ -27,10 +27,21 @@ h2{
 }
 .dark-bar{
     background-color: #5d3fd3;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    padding: 5px;
 }
 .shapes{
     color: lavender;
 }
+#hamburger{
+    background-color: transparent;
+}
+.material-symbols-outlined {
+background: transparent;
+}
+
 header{
     display: flex;
     justify-content: space-between;

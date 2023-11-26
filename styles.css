@@ -52,4 +52,25 @@ header{
 .form{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    
+}
+
+.dark{
+    background-color: lightgray;
+    color: gray;
+    border: none;
+    /* border-bottom-left-radius: 0 ;
+    border-bottom-right-radius:0; */
+    border-bottom: 1px solid gray;
+    margin: 10px 0;
+    padding: 10px;
+}
+.light{
+    border: 1px solid grey;
+    margin: 10px 0;
+    padding: 10px;
+}
+.form input, .form select{
+    border-radius: 10px;
 }

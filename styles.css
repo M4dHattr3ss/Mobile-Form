@@ -25,3 +25,17 @@ h2{
     margin-left: auto;
     margin-right: auto;
 }
+.shapes{
+    background-color: #5d3fd3;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7f00ff;
+    color: white;
+    padding: 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}

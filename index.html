@@ -29,21 +29,33 @@
             </div>
         </header>
         <div class="form">
-            <form action="">
-                <label for="name">Name</label>
-                <input type="text">
-                <label for="phone_number">Phone Number</label>
-                <input type="number">
-                <select name="label" id="label">Label</select>
-                <label for="address">Address</label>
-                <input type="text">
-                <label for="city">City</label>
-                <input type="text">
-                <select name="state" id="state">State</select>
-                <input type="number">
-                <label for="email">Email</label>
-                <input type="email" name="" id="">
-                <label for="birth">Birthday</label>
+            <form action="#" target="_blank">
+
+                <input type="text" placeholder="Name"><br>
+
+                <input type="number" placeholder="Phone Number">
+                <select name="label">
+                    <option value="Mobile">Mobile</option>
+                    <option value="Work Phone">Work Phone</option>
+                    <option value="Home Phone">Home Phone</option>
+                    <option value="Label" hidden selected>Label</option>
+                </select><br>
+
+                <input type="text" placeholder="Address"><br>
+
+                <input type="text" placeholder="City"><br>
+
+                <select name="state">
+                    <option name="state" value="New Mexico">New Mexico</option>
+                    <option name="state" value="California">California</option>
+                    <option name="state" value="Florida">Flordia</option>
+                    <option name="state" value="Other">Other</option>
+                    <option name="state" value="State" hidden selected>State</option>
+                </select>
+                    <input type="number" placeholder="Zip"><br>
+
+                <input type="email" name="email" id="email" placeholder="Email"><br>
+
                 <input type="date">
             </form>
         </div>

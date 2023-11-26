@@ -1,0 +1,27 @@
+*,
+::after,
+::before{
+    box-sizing: border-box;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a{text-decoration: none;}
+p{margin-top: 0;}
+
+h2{
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.container{
+    width: 100%;
+    max-width: 414px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}

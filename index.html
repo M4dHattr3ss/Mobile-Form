@@ -19,7 +19,7 @@
         <header>
             <div class="first">
                 <button class="toggler" aria-expanded="false" aria-controls="navbarDropdown">
-                    <span id="hamburger" class="material-symbols-outlined">menu</span>
+                    <span class="material-symbols-outlined">menu</span>
                 </button>
                 <span>Contacts</span>
             </div>
@@ -34,11 +34,11 @@
                 <input type="text" class=" long dark" placeholder="Name"><br>
                 <div>
                     <i class="fa-solid fa-phone"></i>
-                    <input type="tel" class="light" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone Number">
+                    <input type="tel" maxLength="12" class="light" id="phone-number"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone Number">
                     <select class = "light" name="label">
                         <option value="Mobile">Mobile</option>
-                        <option value="Work">Work Phone</option>
-                        <option value="Home">Home Phone</option>
+                        <option value="Work">Work</option>
+                        <option value="Home">Home</option>
                         <option value="Label" hidden selected>Label</option>
                     </select><br>
                 </div>
@@ -53,7 +53,7 @@
                         <option name="state" value="Other">Other</option>
                         <option name="state" value="State" hidden selected>State</option>
                     </select>
-                    <input class="dark" type="number" placeholder="Zip"><br>
+                    <input class="dark" type="number" size="10" id="zip" placeholder="Zip"><br>
                 </div>
                 <i class="fa-solid fa-envelope"></i>
                 <input type="email" class= " long light" name="email" id="email" placeholder="Email"><br>

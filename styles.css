@@ -3,11 +3,6 @@
 ::before{
     box-sizing: border-box;
 }
-ul{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
 
 .container{
     width: 100%;
@@ -17,6 +12,7 @@ ul{
     margin-left: auto;
     margin-right: auto;
 }
+
 .dark-bar{
     background-color: #5d3fd3;
     display: flex;
@@ -24,25 +20,22 @@ ul{
     gap: 5px;
     padding: 5px;
 }
+
 .shapes{
     color: lavender;
-    font-size: 13px;
+    font-size: 13px; 
 }
-/* #hamburger{
-    background-color: transparent;
-} */
-/* .material-symbols-outlined {
-background: transparent;
-} */
 
 header{
     display: flex;
+    font-size: 25px;
     justify-content: space-between;
     align-items: center;
     background-color: #7f00ff;
     color: white;
     padding: 10px;
 }
+
 .form{
     display: flex;
     flex-direction: column;
@@ -55,14 +48,14 @@ header{
     background-color: lightgray;
     color: gray;
     border: none;
-    /* border-bottom-left-radius: 0 ;
-    border-bottom-right-radius:0; */
     border-bottom: 1px solid gray;
     margin: 10px 0;
     padding: 10px;
 }
+
 .light{
     border: 1px solid grey;
+    color: grey;
     margin: 10px 0;
     padding: 10px;
 }
@@ -85,4 +78,10 @@ header{
     font-size: 20px;
     margin: 15px;
     margin-right: 20px;
+}
+#phone-number{ width: 200px; }
+
+#zip{
+    width: 140px;
+    margin-left: 10px;
 }
